@@ -1,18 +1,9 @@
-﻿@model Razor.Model.Product
-
+﻿@model Product
 
 @{
-    Layout = null;
+    ViewBag.Tittle = "Product Name";
 }
 
-<!Doctype html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width"/>
-    <title>Index</title>
-</head>
-<body>
-    @Model.Name 
-</body>
-</html>
-
+<p>Product Name: @Model.Name</p>
+<p>Product Price: @($"{Model.Price:C2}")</p>
+<p>Stock Low: @ViewBag.StockLevel</p>

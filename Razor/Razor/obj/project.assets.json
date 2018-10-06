@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NIck Brooks\\source\\repos\\Razor\\Razor\\Razor.csproj",
+      "projectUniqueName": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\Razor\\Razor\\Razor.csproj",
       "projectName": "Razor",
-      "projectPath": "C:\\Users\\NIck Brooks\\source\\repos\\Razor\\Razor\\Razor.csproj",
+      "projectPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\Razor\\Razor\\Razor.csproj",
       "packagesPath": "C:\\Users\\NIck Brooks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NIck Brooks\\source\\repos\\Razor\\Razor\\obj\\",
+      "outputPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\Razor\\Razor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
