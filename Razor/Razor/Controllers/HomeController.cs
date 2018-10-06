@@ -11,18 +11,20 @@ namespace Razor.Controllers
     {
         public ViewResult Index()
         {
-            Product myProduct = new Product()
+            Product[] array =
             {
-                ProductId = 1,
-                Name = "Kayak",
-                Description = "A boat for one person",
-                Category = "Watersports",
-                Price = 275m
-            };
-            /// Sending more info to the view he recmmends using this for giving the view hints on how to display the data and not data that will be shown to the user
-            /// Accessed with @ViewBag.VariableName
-            ViewBag.StockLevel = 2; 
-            return View(myProduct);
+                new Product {Name = "Kayak", Price = 275m },
+                new Product {Name = "Lifejacket", Price = 48.95m },
+                new Product {Name = "Soccer Ball", Price = 19.50m },
+                new Product {Name = "Corner Flag", Price = 34.95m }
+         };
+            return View(array);
         }
     }
 }
+
+
+
+// Sending more info to the view he recmmends using this for giving the view hints on how to display the data and not data that will be shown to the user
+// Accessed with @ViewBag.VariableName
+//ViewBag.StockLevel = 2; 

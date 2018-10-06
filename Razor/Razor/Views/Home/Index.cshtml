@@ -1,9 +1,56 @@
-﻿@model Product
+﻿@model Product[]
 
 @{
     ViewBag.Tittle = "Product Name";
 }
+<table>
+    <thead>
+        <tr><th>Name</th><th>Price</th></tr>
+    </thead>
+    <tbody>
+        @foreach (Product product in Model)
+        {
+        <tr>
+            <td>@product.Name</td>
+            <td>@($"{product.Price:c2}")</td>
+        </tr>
+        }
 
-<p>Product Name: @Model.Name</p>
-<p>Product Price: @($"{Model.Price:C2}")</p>
-<p>Stock Low: @ViewBag.StockLevel</p>
+    </tbody>foreach
+</table>
+
+
+@*Switch Example
+    <p>
+        Stock Low:
+        @switch (ViewBag.StockLevel)
+        {
+            case 1:
+            case 2:
+            case 3:
+                <b>Low Stock: (@ViewBag.StockLevel)</b>
+                break;
+            default:
+                @:ViewBag.StockLevel in stock
+                break;
+        }
+    </p>
+*@
+
+@*Switch Example
+    <p>
+        Stock Low:
+        @if (ViewBag.StockLevel == 0)
+        {
+            @:Out of stock
+        }
+        else if (ViewBag.StockLevel > 0 && ViewBag.StockLevel <= 3)
+        {
+            <b>Low Stock: (@ViewBag.StockLevel)</b>
+        }
+        else
+        {
+            @:ViewBag.StockLevel in stock
+        }
+    </p>
+*@
