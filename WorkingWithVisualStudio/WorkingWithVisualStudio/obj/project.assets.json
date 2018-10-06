@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
+      "projectUniqueName": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
       "projectName": "WorkingWithVisualStudio",
-      "projectPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
+      "projectPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
       "packagesPath": "C:\\Users\\NIck Brooks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\obj\\",
+      "outputPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\APressExamples\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

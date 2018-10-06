@@ -1,7 +1,19 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model IEnumerable<Product>
 
-<h2>Index</h2>
-
+    @{
+        ViewBag.Tittle = "Working With Visual Studio";
+    }
+    <table>
+        <thead>
+            <tr><th>Name</th><th>Price</th></tr>
+        </thead>
+        <tbody>
+            @foreach (Product product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@($"{product.Price:c2}")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
