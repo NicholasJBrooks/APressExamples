@@ -1,20 +1,26 @@
 ﻿@model IEnumerable<Product>
 
-    @{
-        ViewBag.Tittle = "Working With Visual Studio";
-    }
-    <h3>Products</h3>
-    <table>
-        <thead>
-            <tr><th>Name</th><th>Price</th></tr>
-        </thead>
-        <tbody>
-            @foreach (Product product in Model)
-            {
-                <tr>
-                    <td>@product.Name</td>
-                    <td>@($"{product.Price:c2}")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+@{
+    ViewBag.Tittle = "Working With Visual Studio";
+}
+<link rel="stylesheet" href="~/css/bundle.min.css" />
+<script type="text/javascript" src="~/js/bundle.min.js"></script>
+
+
+
+<h3>Products</h3>
+<p>Request Time: @DateTime.Now.ToString("HH:mm:ss")</p>
+<table>
+    <thead>
+        <tr><th>Name</th><th>Price</th></tr>
+    </thead>
+    <tbody>
+        @foreach (Product product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@($"{product.Price:c2}")</td>
+            </tr>
+        }
+    </tbody>
+</table>

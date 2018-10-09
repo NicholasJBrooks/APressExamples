@@ -22,6 +22,7 @@ namespace WorkingWithVisualStudio
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles(); 
             app.UseDeveloperExceptionPage();
         }
     }
