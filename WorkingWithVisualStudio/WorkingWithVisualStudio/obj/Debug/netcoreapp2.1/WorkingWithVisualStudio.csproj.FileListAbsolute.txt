@@ -26,6 +26,7 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\Wor
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.TagHelpers.input.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.TagHelpers.output.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.RazorCoreGenerate.cache
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddProduct.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
