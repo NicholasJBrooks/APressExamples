@@ -7,9 +7,9 @@ namespace WorkingWithVisualStudio.Models
 {
     public class SimpleRepository
     {
-        private static SimpleRepository HiddensharedRepository => new SimpleRepository();
+        private static SimpleRepository sharedRepository => new SimpleRepository();
         private Dictionary<string, Product> products = new Dictionary<string, Product>();
-        public static SimpleRepository SharedRepository => HiddensharedRepository;
+        public static SimpleRepository SharedRepository => sharedRepository;
 
         public SimpleRepository()
         {
@@ -26,13 +26,11 @@ namespace WorkingWithVisualStudio.Models
             {
                 AddProduct(product);
             }
-
-            products.Add("Error", null);
         }
 
         public IEnumerable<Product> Products => products.Values;
 
-        // Setting the dictionary up with the intial values and setting the key to the name ofthe product and the value to the product itself.
+        // Setting the dictionary up with the intial values and setting the key to the name of the product and the value to the product itself.
         public void AddProduct(Product product) => products.Add(product.Name, product);
         
     }

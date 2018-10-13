@@ -9,11 +9,13 @@ namespace WorkingWithVisualStudio.Controllers
 {
     public class HomeController : Controller
     {
-        SimpleRepository Repository = SimpleRepository.SharedRepository;
+        static SimpleRepository Repository = SimpleRepository.SharedRepository;
+
+        public IActionResult Index()
+            => View(Repository.Products.Where(x => x?.Price < 50));
 
         [HttpGet]
-        public IActionResult Index()
-            => View(SimpleRepository.SharedRepository.Products.Where(x => x?.Price < 50));
+        public IActionResult AddProduct() => View(new Product()); 
 
         [HttpPost]
         public IActionResult AddProduct(Product product)
