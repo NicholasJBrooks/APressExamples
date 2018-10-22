@@ -37,3 +37,4 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\Wor
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.dll
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.pdb
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.csproj.CopyComplete
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.csprojAssemblyReference.cache
