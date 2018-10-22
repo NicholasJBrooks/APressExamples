@@ -14,3 +14,13 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorTargetAssemblyInfo.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.dll
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.deps.json
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.runtimeconfig.json
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.runtimeconfig.dev.json
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.dll
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.dll
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Product\List.g.cshtml.cs
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CopyComplete
