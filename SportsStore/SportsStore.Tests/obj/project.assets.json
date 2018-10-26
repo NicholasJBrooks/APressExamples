@@ -332,6 +332,18 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Razor/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2335,6 +2347,7 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.1",
+          "Microsoft.AspNetCore.Razor": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "compile": {
@@ -2627,6 +2640,18 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ViewFeatures.xml",
         "microsoft.aspnetcore.mvc.viewfeatures.2.1.1.nupkg.sha512",
         "microsoft.aspnetcore.mvc.viewfeatures.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Razor/2.1.1": {
+      "sha512": "oDxJTufrOF2Y7g+p2jU5+2xtrcsb3KX20pH/KosLW5rbsJMAqaOwprI6gJlBQCGtMCYl/MbnC45ZObPmzyI0NQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.razor/2.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.xml",
+        "microsoft.aspnetcore.razor.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.razor.nuspec"
       ]
     },
     "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.1.1": {

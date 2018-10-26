@@ -18,8 +18,13 @@ using SportsStore.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\Views\_ViewImports.cshtml"
+using SportsStore.Models.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"773f91b2ce43f342bd4f4d336a89bec802065769", @"/Views/Product/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7e9d98212c457cc72388c2bdb8b97d31af536367", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d00d49aade00e308a73ca2368f87808ce589652f", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Product>>
     {
         #pragma warning disable 1998

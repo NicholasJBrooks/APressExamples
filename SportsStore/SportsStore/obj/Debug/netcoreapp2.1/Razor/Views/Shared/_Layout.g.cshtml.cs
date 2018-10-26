@@ -18,8 +18,13 @@ using SportsStore.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\Views\_ViewImports.cshtml"
+using SportsStore.Models.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b980875030f0495e5d3aaf991abcf85706a6c39c", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7e9d98212c457cc72388c2bdb8b97d31af536367", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d00d49aade00e308a73ca2368f87808ce589652f", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -49,7 +54,7 @@ using SportsStore.Models;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10d970c87aa548bfb297dc35b07fd308", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b86aa11b7f7c4b16a593cd28c6a69fa5", async() => {
                 BeginContext(33, 94, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Sports Store</title>\r\n");
                 EndContext();
@@ -69,7 +74,7 @@ using SportsStore.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(136, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce00a9c55d1e4a7db526725ca389e3f3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2b4c738fca94807941158f9b7f88ece", async() => {
                 BeginContext(142, 21, true);
                 WriteLiteral("\r\n    <div>\r\n        ");
                 EndContext();
