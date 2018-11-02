@@ -1,14 +1,14 @@
-﻿using SportsStore.Models;
-using SportsStore.Models.ViewModels;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using SportsStore.Models.ViewModels;
 using System.Collections.Generic;
 
 namespace SportsStore.Infrastructure
 {
+
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageLinkTagHelper : TagHelper
     {
@@ -28,7 +28,8 @@ namespace SportsStore.Infrastructure
         public string PageAction { get; set; }
 
         [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
-        public Dictionary<string, object> PageUrlValues { get; set; } = new Dictionary<string, object>();
+        public Dictionary<string, object> PageUrlValues { get; set; }
+            = new Dictionary<string, object>();
 
         public bool PageClassesEnabled { get; set; } = false;
         public string PageClass { get; set; }
@@ -44,7 +45,7 @@ namespace SportsStore.Infrastructure
             {
                 TagBuilder tag = new TagBuilder("a");
                 PageUrlValues["productPage"] = i;
-                tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues); 
+                tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues);
                 if (PageClassesEnabled)
                 {
                     tag.AddCssClass(PageClass);

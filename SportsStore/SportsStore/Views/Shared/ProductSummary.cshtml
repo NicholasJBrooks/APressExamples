@@ -10,7 +10,7 @@
         </h4>
     </div>
     <form id="@Model.ProductId" asp-action="AddToCart"
-          asp-controller="Product" method="post">
+          asp-controller="Cart" method="post">
         <input type="hidden" asp-for="ProductId" />
         <input type="hidden" name="returnUrl" 
                         value="@ViewContext.HttpContext.Request.PathAndQuery()"/>
@@ -20,6 +20,5 @@
                 Add To Cart
             </button> 
         </span>
-</form>
-    <div class=" card-text p-1" >@Model.Description</div>
+    </form>
 </div>

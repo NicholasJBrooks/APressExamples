@@ -1,57 +1,53 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
-using SportsStore.Infrastructure;
+﻿using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using SportsStore.Models;
-using System.Linq;
-using System;
+using SportsStore.Models.ViewModels;
 
 namespace SportsStore.Controllers
 {
+
     public class CartController : Controller
     {
         private IProductRepository repository;
+        private Cart cart;
 
-        public CartController(IProductRepository repo)
+        public CartController(IProductRepository repo, Cart cartService)
         {
-            repository = repo; 
+            repository = repo;
+            cart = cartService;
         }
 
-        public RedirectToActionResult AddToCart(int productId , string returnUrl)
+        public ViewResult Index(string returnUrl)
+        {
+            return View(new CartIndexViewModel
+            {
+                Cart = cart,
+                ReturnUrl = returnUrl
+            });
+        }
+
+        public RedirectToActionResult AddToCart(int productId, string returnUrl)
         {
             Product product = repository.Products
                 .FirstOrDefault(p => p.ProductId == productId);
             if (product != null)
             {
-                Cart cart = GetCart();
                 cart.AddItem(product, 1);
-                SaveCart(cart);
-            }
-            return RedirectToAction("Index", new { returnUrl }); 
-        }
-
-        public RedirectToActionResult RemoveFromCart(int productId, string returnUrl)
-        {
-            Product product = repository.Products
-                .FirstOrDefault(p => p.ProductId == productId);
-
-            if (product != null)
-            {
-                Cart cart = GetCart();
-                cart.RemoveLine(product);
-                SaveCart(cart);
             }
             return RedirectToAction("Index", new { returnUrl });
         }
 
-        private void SaveCart(Cart cart)
+        public RedirectToActionResult RemoveFromCart(int productId,
+                string returnUrl)
         {
-            HttpContext.Session.SetJson("Cart", cart); 
-        }
+            Product product = repository.Products
+                .FirstOrDefault(p => p.ProductId == productId);
 
-        private Cart GetCart()
-        {
-            Cart cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
-            return cart; 
+            if (product != null)
+            {
+                cart.RemoveLine(product);
+            }
+            return RedirectToAction("Index", new { returnUrl });
         }
     }
 }
