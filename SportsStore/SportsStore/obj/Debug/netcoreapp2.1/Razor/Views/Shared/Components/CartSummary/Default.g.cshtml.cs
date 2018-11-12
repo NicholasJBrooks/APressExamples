@@ -98,7 +98,7 @@ using SportsStore.Infrastructure;
             WriteLiteral("    ");
             EndContext();
             BeginContext(279, 229, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dd4a12521c1402b8f21c88225022180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11a9f11748834f9a93c9a9801c5e8c25", async() => {
                 BeginContext(453, 51, true);
                 WriteLiteral("\r\n        <i class=\"fa fa-shopping-cart\"></i>\r\n    ");
                 EndContext();

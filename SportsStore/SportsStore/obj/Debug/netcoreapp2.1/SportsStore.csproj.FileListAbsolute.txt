@@ -5,6 +5,7 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.pdb
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.dll
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csprojAssemblyReference.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorAssemblyInfo.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorAssemblyInfo.cs
@@ -14,7 +15,9 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.TagHelpers.output.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorCoreGenerate.cache
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.g.cshtml.cs
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Product\List.g.cshtml.cs
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CartSummary\Default.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\NavigationMenu\Default.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ProductSummary.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -26,6 +29,4 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.dll
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.pdb
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CopyComplete
-C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csprojAssemblyReference.cache
-C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CartSummary\Default.g.cshtml.cs
-C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Order\Completed.g.cshtml.cs
