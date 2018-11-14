@@ -64,12 +64,12 @@ using SportsStore.Infrastructure;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 331, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee7e7d28f34a45a88ac4a48fc85077ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0432713adcda4d52872e28724fc32974", async() => {
                 BeginContext(33, 65, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    ");
                 EndContext();
                 BeginContext(98, 142, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9b8a5f14c9934423b348274991994504", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bfd424c8fbd74c86af3a5f0c4059015f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -91,7 +91,7 @@ using SportsStore.Infrastructure;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(246, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7abedd9497014ee9ac69a9ea34c9260a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "901573bfc54b436fa7ab183ad7d0c855", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -126,7 +126,7 @@ using SportsStore.Infrastructure;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(360, 572, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da8eff42536d4ac0805d6e006b33e6d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f79eb7e39e6d413786671b24ae9f2ee7", async() => {
                 BeginContext(366, 225, true);
                 WriteLiteral("\r\n    <div class=\"navbar navbar-light bg-primary\"  role=\"navigation\">\r\n        <div class=\"row\">\r\n            <a class=\"col navbar-brand\" href=\"#\">SPORTS STORE</a>\r\n            <div class=\"col-4 text-right\">\r\n                ");
                 EndContext();
