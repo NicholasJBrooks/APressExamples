@@ -34,3 +34,4 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.pdb
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CopyComplete
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csprojAssemblyReference.cache
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs

@@ -115,12 +115,12 @@ using SportsStore.Infrastructure;
             WriteLiteral("</td>\r\n        <td class=\"text-center\">\r\n            ");
             EndContext();
             BeginContext(583, 438, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c029378a9be4ce2a79328cde0ddf0d0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1be3ece1217d44ab976a0939f003e138", async() => {
                 BeginContext(623, 18, true);
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(641, 152, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26e49907b47747f18057557d6526d0aa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3009ef43667847e6bd9fc33e954db659", async() => {
                     BeginContext(749, 40, true);
                     WriteLiteral("\r\n                Edit\r\n                ");
                     EndContext();
@@ -195,7 +195,7 @@ WriteAttributeValue("", 856, item.ProductId, 856, 15, false);
             WriteLiteral("</table>\r\n<div class=\"text-center\">\r\n    ");
             EndContext();
             BeginContext(1097, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f03f949be6044bf876da26f516130c2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91c57b8c358742baab4b00aafdea4a97", async() => {
                 BeginContext(1144, 11, true);
                 WriteLiteral("Add Product");
                 EndContext();
