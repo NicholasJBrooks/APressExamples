@@ -18,3 +18,7 @@ C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\Configuring
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\obj\Debug\netcoreapp2.1\ConfiguringApps.RazorTargetAssemblyInfo.cs
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\bin\Debug\netcoreapp2.1\ConfiguringApps.Views.dll
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\bin\Debug\netcoreapp2.1\ConfiguringApps.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\obj\Debug\netcoreapp2.1\ConfiguringApps.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\APressExamples\ConfiguringApps\ConfiguringApps\obj\Debug\netcoreapp2.1\ConfiguringApps.csproj.CopyComplete
