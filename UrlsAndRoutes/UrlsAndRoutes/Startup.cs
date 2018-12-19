@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Routing.Constraints; 
 
 namespace UrlsAndRoutes
 {
@@ -29,14 +30,75 @@ namespace UrlsAndRoutes
                 app.UseMvc(); 
             }
 
-            app.UseMvc(configureRoutes =>
+            app.UseMvc(routes =>
             {
-                configureRoutes.MapRoute(
-                    name: "default",
-                    template: "{controller}/{action}",
-                    defaults: new { action = "Index" });
-
+                routes.MapRoute(
+                    name: "MyRoute",
+                    template: "{controller:regex(^H.*)=Home}/" + 
+                    "{action:regex(^Index$|About$)=Index}/{id?}"
+                    );
             });
         }
     }
 }
+
+
+// You can create a url that will have static members or you can creatre a url that can have both static and variable elements. 
+
+//routes.MapRoute(
+//        name: "ShopSchema2",
+//        template: "Shop/OldAction",
+//        defaults: new { controller = "Home", action = "Index" }
+//        );
+
+//    routes.MapRoute(
+//        name: "ShopSchema",
+//        template: "Shop/{action}",
+//        defaults: new { controller = "Home" }); 
+
+//    routes.MapRoute("", "X{controller}/{action}");
+
+//    routes.MapRoute(
+//        name: "default",
+//        template: "{controller=Home}/{action=Index}");
+
+//    routes.MapRoute(
+//        name: "default",
+//        template: "Public/{controller=Home}/{action=Index}");
+
+//This has three segements and the last segment will fall back on the default if the third segment is not present in the url 
+//routes.MapRoute(
+//              name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}/{id=DefaultId}"
+//                    );
+
+//A catchall that will grab all of the segments that are not assigned with the * character 
+//routes.MapRoute(
+//                name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}/{id?}/{*catchall}"
+//                    );
+
+//Inline constraint will seperated by the : character
+//routes.MapRoute(
+//               name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}/{id:int??"
+//                    );
+
+
+// inline constraint example. 
+//app.UseMvc(routes =>
+//            {
+//                routes.MapRoute(
+//                    name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}/{id:int?",
+//                    );
+//            });
+
+// Using the regex so that the url has to start with an H
+//app.UseMvc(routes =>
+//            {
+//                routes.MapRoute(
+//                    name: "MyRoute",
+//                    template: "{controller:regex(^H.*)=Home}/{action=Index}/{id:int?"
+//                    );
+//            });

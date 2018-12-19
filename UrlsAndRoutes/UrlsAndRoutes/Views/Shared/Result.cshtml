@@ -14,8 +14,8 @@
         <tr><th>Action:</th><td>@Model.Action</td></tr>
         @foreach (string key in Model.Data.Keys)
         {
-            <tr><th>Key:</th><td>@Model.Data[key]</td></tr>
+            <tr><th>@key :</th><td>@Model.Data[key]</td></tr>
         }
-    </table>foreach
+    </table>
 </body>
 </html>
