@@ -34,9 +34,7 @@ namespace UrlsAndRoutes
             {
                 routes.MapRoute(
                     name: "MyRoute",
-                    template: "{controller:regex(^H.*)=Home}/" + 
-                    "{action:regex(^Index$|About$)=Index}/{id?}"
-                    );
+                    template: "{controller=Home}/{action=Index}/{id:range(10,20)?}");
             });
         }
     }
@@ -100,5 +98,16 @@ namespace UrlsAndRoutes
 //                routes.MapRoute(
 //                    name: "MyRoute",
 //                    template: "{controller:regex(^H.*)=Home}/{action=Index}/{id:int?"
+//                    );
+//            });
+
+
+    // Putting constraints on the controller and the action. So that the controller will have to start with the letter H and the action can only be Index or About
+//app.UseMvc(routes =>
+//            {
+//                routes.MapRoute(
+//                    name: "MyRoute",
+//                    template: "{controller:regex(^H.*)=Home}/" + 
+//                    "{action:regex(^Index$|About$)=Index}/{id?}"
 //                    );
 //            });
