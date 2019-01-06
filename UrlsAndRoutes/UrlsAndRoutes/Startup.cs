@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Routing.Constraints; 
+using Microsoft.AspNetCore.Routing.Constraints;
+using Microsoft.AspNetCore.Routing;
+using UrlsAndRoutes.Infrastructure; 
 
 namespace UrlsAndRoutes
 {
@@ -16,6 +18,7 @@ namespace UrlsAndRoutes
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<RouteOptions>(options => options.ConstraintMap.Add("weekday", typeof(WeekDayConstraint))); 
             services.AddMvc();
         }
 
@@ -27,14 +30,14 @@ namespace UrlsAndRoutes
                 app.UseDeveloperExceptionPage();
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
-                app.UseMvc(); 
+                app.UseMvc();
             }
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "MyRoute",
-                    template: "{controller=Home}/{action=Index}/{id:range(10,20)?}");
+                    template: "{controller}/{action}/{id:weekday?}");
             });
         }
     }
@@ -102,7 +105,7 @@ namespace UrlsAndRoutes
 //            });
 
 
-    // Putting constraints on the controller and the action. So that the controller will have to start with the letter H and the action can only be Index or About
+// Putting constraints on the controller and the action. So that the controller will have to start with the letter H and the action can only be Index or About
 //app.UseMvc(routes =>
 //            {
 //                routes.MapRoute(
@@ -110,4 +113,44 @@ namespace UrlsAndRoutes
 //                    template: "{controller:regex(^H.*)=Home}/" + 
 //                    "{action:regex(^Index$|About$)=Index}/{id?}"
 //                    );
+//            });
+
+// Using type and value constraints 
+//app.UseMvc(routes =>
+//            {
+//                routes.MapRoute(
+//                    name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}/{id:range(10,20)?}");
+//            });
+
+//combining constraints. This will only alow a url through that is not there or it has 6 alphanumeric characters
+//app.UseMvc(routes =>
+//            {
+//                routes.MapRoute(
+//                    name: "MyRoute",
+//                    template: "{controller=Home}/{action=Index}" + "/{id:alpha:minlength(6)?}");
+//            });
+
+// 
+//routes.MapRoute(
+//name: "MyRoute",
+//                    template: "{controller}/{action}/{id?}",
+//                    defaults: new { controller = "Home", action = "Index" },
+//                    constraints: new
+//                    {
+//                        id = new CompositeRouteConstraint(
+//                                new IRouteConstraint[] {
+//                                new AlphaRouteConstraint(),
+//                                new MinLengthRouteConstraint(6)
+//                                }
+//                            )
+//                    });
+
+/// Maing my custom constraint an inline constraint using the ConfigureServices and mapping the constraint class 
+///         services.Configure<RouteOptions>(options => options.ConstraintMap.Add("weekday", typeof(WeekDayConstraint)));   
+//app.UseMvc(routes =>
+//            {
+//            routes.MapRoute(
+//                name: "MyRoute",
+//                template: "{controller}/{action}/{id:weekday?}");
 //            });
