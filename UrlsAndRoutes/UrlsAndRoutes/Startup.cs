@@ -31,14 +31,8 @@ namespace UrlsAndRoutes
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
                 app.UseMvc();
+                app.UseMvcWithDefaultRoute();
             }
-
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "MyRoute",
-                    template: "{controller}/{action}/{id:weekday?}");
-            });
         }
     }
 }
