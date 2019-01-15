@@ -4,7 +4,7 @@
 <!DocType html>
 <html>
 <head>
-    <meta name="viewport"  content="width=device-width" />
+    <meta name="viewport" content="width=device-width" />
     <title>Routing</title>
     <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
 </head>
@@ -17,5 +17,10 @@
             <tr><th>@key :</th><td>@Model.Data[key]</td></tr>
         }
     </table>
+   <a asp-controller="Home" asp-action="CustomVariable">This is an outgoing URL</a>
+   <a asp-route="out">This is an outgoing URL</a>
 </body>
 </html>
+
+
+<!-- <a asp-controller="Home" asp-action="Index" asp-route-id="Hello" asp-protocol="https" asp-host="myserver.mydomain.com" asp-fragment="myFragment">This is outgoing Url</a>  -->

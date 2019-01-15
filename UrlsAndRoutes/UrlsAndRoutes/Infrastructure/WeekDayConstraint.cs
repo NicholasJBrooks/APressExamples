@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UrlsAndRoutes.Infrastructure
 {
-    public class WeekDayConstraint
+    public class WeekDayConstraint: IRouteConstraint
     {
         public static string[] Days = new[] { "mon", "tue", "wed", "thu", "fri", "sat", "sun" };
 
